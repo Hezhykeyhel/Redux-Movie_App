@@ -1,0 +1,22 @@
+@import"../../container/colors.scss";
+
+.header{
+    background-color: $secondary-color;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: $font-primary;
+    font-size: 20px;
+    font-weight: 600;
+    padding: .3rem .3rem;
+}
+.u_image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor:pointer;
+    padding: .5rem;
+}

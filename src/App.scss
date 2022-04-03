@@ -1,0 +1,17 @@
+@import "./container//colors.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:$font-family;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+body{
+    background: $primary-color;
+    color: $font-primary;
+}
+.container{
+    margin: 0px 40px;
+}

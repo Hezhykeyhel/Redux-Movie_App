@@ -1,0 +1,39 @@
+@import "../../container/colors.scss";
+
+.movie_card{
+    background: $secondary-color;
+    padding: .3rem;
+    border-radius: 10px;
+    margin: .5rem;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s all;
+    }
+    .links{
+        text-decoration: none;
+        color: $font-primary;
+    }
+}
+.top_card{
+    height: 220px;
+    img{
+        width:100%;
+        height: 100%;
+        border-radius:8px;
+    }
+}
+.bottom_card{
+    padding:10px;
+}
+.card-info{
+    color: $font-primary;
+    h4{
+        font-size:22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
+
