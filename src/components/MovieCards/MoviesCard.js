@@ -13,7 +13,7 @@ const MoviesCard = (props) => {
           </div>
           <div className='bottom_card'>
             <div className='card_info'>
-              <h4>{data.Title}</h4>
+              <h4 style={{fontSize: '13px'}}>{data.Title}</h4>
               <p>{data.Year}</p>
             </div>
           </div>

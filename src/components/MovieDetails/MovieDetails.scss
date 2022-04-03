@@ -30,7 +30,7 @@
         font-size: 40px;
         color:$font-primary;
         @media only screen and(max-width:600px) {
-          font-size: 20px;
+          font-size: 16px;
         }
     }
     .movie-plot{
@@ -42,7 +42,7 @@
         color: $font-primary;
         font-weight: 600;
         font-size: 13px;
-        width: 100px;
+        width: 80px;
         display: inline-flex;
       }
       
@@ -69,6 +69,8 @@
       .section-right {
         width:100%;
         height: 420px;
+        overflow-y:hidden;
+        margin-bottom: 20px;
         img{
          border-radius: 10px;
          width: 100%;

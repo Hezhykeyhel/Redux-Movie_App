@@ -1,2 +1,19 @@
 @import "../../container/colors.scss";
 
+.notfound-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1em;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    @media only screen and (max-width: 600px){
+        h1{
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+    }
+}
